@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /cgi-bin/
+Allow: /images/
+Allow: /pages/thankyou.html

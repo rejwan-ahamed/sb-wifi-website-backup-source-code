@@ -1,0 +1,30 @@
+<!-- This site is optimized with the Yoast SEO plugin v16.8 - https://yoast.com/wordpress/plugins/seo/ -->
+
+<title>Home  | SAS-VIN Dental Care</title>
+<meta name="description" content="SAS-VIN Dental Care. Dental clinic. Visit this website for online appointment or call +8801511522777. SAS-VIN Dental Care">
+<link rel="canonical" href="./index.html">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Home  | SAS-VIN Dental Care">
+<meta property="og:description" content="SAS-VIN Dental Care. Dental clinic. Visit this website for online appointment or call +8801511522777. SAS-VIN Dental Care">
+<meta property="og:url" content="./">
+<meta property="og:site_name" content="SAS-VIN Dental Care">
+<meta property="article:publisher" content="https://www.facebook.com/SAS-Vin-Dental-100408671989638/">
+<meta property="article:modified_time" content="2021-08-09T10:34:11+00:00">
+<meta property="og:image" content="./wp-content/uploads/2021/05/dental.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:label1" content="Est. reading time">
+<meta name="twitter:data1" content="4 minutes">
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"./#organization","name":"SAS-VIN Dental Care","url":"./","sameAs":["https://www.facebook.com/SAS-Vin-Dental-100408671989638/"],"logo":{"@type":"ImageObject","@id":"./#logo","inLanguage":"en-US","url":"./wp-content/uploads/2021/08/20210806_020813.png","contentUrl":"./wp-content/uploads/2021/08/20210806_020813.png","width":3264,"height":1088,"caption":"SAS-VIN Dental Care"},"image":{"@id":"./#logo"}},{"@type":"WebSite","@id":"./#website","url":"./","name":"SAS-VIN Dental Care","description":"","publisher":{"@id":"./#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"./?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"./#primaryimage","inLanguage":"en-US","url":"./wp-content/uploads/2021/05/dental.jpg","contentUrl":"./wp-content/uploads/2021/05/dental.jpg","width":700,"height":900},{"@type":["WebPage","SearchResultsPage"],"@id":"./#webpage","url":"./","name":"Home | SAS-VIN Dental Care","isPartOf":{"@id":"./#website"},"about":{"@id":"./#organization"},"primaryImageOfPage":{"@id":"./#primaryimage"},"datePublished":"2021-04-29T07:04:26+00:00","dateModified":"2021-08-09T10:34:11+00:00","description":"SAS-VIN Dental Care. Dental clinic. Visit this website for online appointment or call +8801511522777. SAS-VIN Dental Care","breadcrumb":{"@id":"./#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["./"]}]},{"@type":"BreadcrumbList","@id":"./#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]}]}</script><!-- / Yoast SEO plugin. --><link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="SAS-VIN Dental Care &raquo; Feed" href="./feed/index.html">
+<link rel="alternate" type="application/rss+xml" title="SAS-VIN Dental Care &raquo; Comments Feed" href="./comments/feed/index.html">
+
+
+
+///////key words///////////////////////////
+
+
+<meta name="keywords"
+		content="sasvindentalcare, sas-vin Dental Care, SAS-vin Dental Care, SAS-VIN Dental Care, SAS-VIN dental care, sas-vin dental care. sas-vin dental">
+	<meta name="generator" content="Site Kit by Google 1.38.0">

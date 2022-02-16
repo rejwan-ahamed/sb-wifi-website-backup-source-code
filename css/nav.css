@@ -1,0 +1,127 @@
+
+:root {
+    --primarycolor: #EBECF0;
+    --titlecolot: #000;
+    --footertitlecolor: #4E4E4E;
+    --navbarcolor: #fff;
+    --footerbodycolor: #fff;
+    --footertitle: #5a5a5a;
+    --iconcolor: #525252;
+    --logocolor: #000;
+    --formfieldcolor: #C4C4C4:
+}
+
+.dark-theme {
+    --primarycolor: #161616;
+    --titlecolot: #FFFFFF;
+    --footertitlecolor: #908B8B;
+    --navbarcolo: #464646;
+    --footerbodycolor: #464646;
+    --footertitle: #5a5a5a;
+    --iconcolor: #525252;
+    --logocolor: #fff:
+}
+
+
+body {
+  font-family: 'General Sans', sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    /* font-size: 25px; */
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    margin-top: 1rem;
+    font-weight: 500;
+  
+  }
+  span{
+      color: var(--titlecolot);
+  }
+  
+  .sidenav a:hover{
+    color: #ff0037f3;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .nav-icon{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+  }
+
+.navedition{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+
+.navedition .navlogo{
+  font-size: 30px;
+  font-style: normal;
+  margin-top: -5px;
+
+}
+
+.navedition .navlogo a{
+  color:var(--titlecolot);
+  font-weight: 500;
+  font-size: 25px;
+}
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  
+@media (min-width: 300px) and (max-width: 800px) {
+
+  .navbar-expand-lg{
+    display: none;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 10000px) {
+
+  .navedition{
+    display: none;
+  }
+}
+
+
+
+.navedition{
+  height: 3.5rem;
+  border-bottom: 1px solid #555;
+  width: 100%;
+  
+  }
+  

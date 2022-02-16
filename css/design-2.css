@@ -1,0 +1,3205 @@
+html,
+body {
+    overflow-x: hidden;
+    cursor: url(carser3.png), auto;
+
+}
+
+body {
+    background-color: var(--primarycolor);
+    font-family: 'General Sans', sans-serif;
+    cursor: url(carser3.png), auto;
+}
+
+/* bootstrap additional css castom codes */
+.row {
+    --bs-gutter-x: 1rem !important;
+    --bs-gutter-y: 0;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+
+    outline: 0;
+    box-shadow: 0 0 0 .25rem transparent !important;
+}
+
+
+/* my custom nav here */
+.navsections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+    background-color: #00B2FF;
+    /* border-bottom: 1px solid #555; */
+    font-family: 'General Sans', sans-serif;
+    padding: 0 9rem;
+}
+
+.navsections .navleftside {
+    font-family: 'General Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    width: 40%;
+    padding: 1rem 4rem;
+    color: black;
+}
+
+.navsections .navleftside .navlogo {
+    color: var(--logocolor);
+}
+
+.navlogo a {
+    color: var(--titlecolot);
+    font-size: 30px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+
+
+}
+
+#call{
+    color: rgb(0 102 255) !important;
+}
+
+.navsections .navmidside {
+
+    padding: 1rem 0;
+    display: flex;
+    height: inherit;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    /* background-color: lawngreen; */
+}
+
+.navsections .navmidside .navlinks {
+    font-family: 'General Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5rem;
+
+}
+
+.navsections .navmidside .navlinks a {
+    color: var(--titlecolot);
+    margin-left: 1rem;
+    cursor: url(carser3.png), auto;
+}
+
+.navsections .navrightside .navbuttons {
+    display: flex;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+.navsections .navrightside .navbuttons a {
+    font-size: 20px;
+    color: var(--titlecolot);
+    cursor: url(carser3.png), auto;
+}
+
+.navsections .navrightside .navbuttons a:hover {
+    color: rgb(255, 10, 51);
+    transition: all 0.4s;
+
+
+}
+
+.nav-links {
+    display: flex;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.herosection {
+    width: 100%;
+    height: inherit;
+    background-color: #00B2FF;
+    font-family: 'General Sans', sans-serif;
+    padding: 0 2rem;
+}
+
+
+.herop {
+    padding: 0 10rem;
+}
+
+
+.heroleftside {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.heroleftside .herotitle h1 {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    font-size: 66px;
+    line-height: 70px;
+    width: 70%;
+    color: black;
+}
+
+.heroleftside .heropapargap p {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    width: 80%;
+    margin-top: 3rem;
+    /* color: blanchedalmond; */
+}
+
+
+.heroleftside .herobutton a {
+    border: 2px solid #100259;
+    background-color: transparent;
+    border-radius: 30px;
+    color: black;
+    height: 3rem;
+    width: 10rem;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.heroleftside .herobutton button {
+    border: 2px solid #100259;
+    background-color: transparent;
+    border-radius: 30px;
+    color: black;
+    height: 3rem;
+    width: 10rem;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+
+.herorightside {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.herorightside .heroimg img {
+
+
+    width: 35rem;
+    height: inherit;
+}
+
+
+
+/* about section */
+
+
+.about {
+    width: 100%;
+    height: inherit;
+    padding: 0 10rem;
+}
+
+
+.abodthader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+    flex-direction: column;
+}
+
+.abodthader .adouttitle {
+    font-family: 'General Sans', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.abodthader .aboutparagrap {
+    font-family: 'General Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.aboutleftside {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.aboutleftside .abouttitle h1 {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    /* line-height: 70px; */
+    width: 70%;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.aboutleftside .aboutpapargap li {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 20px;
+    width: 100%;
+    /* margin-top: 2rem; */
+    list-style: none;
+    /* color: blanchedalmond; */
+}
+
+
+
+
+
+.aboutrightside {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.aboutrightside .aboutimg img {
+
+
+    width: 35rem;
+    height: inherit;
+}
+
+
+
+/* pricing */
+
+.pricing {
+    padding: 0 10rem;
+}
+
+
+.pacagehader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'General Sans', sans-serif;
+
+}
+
+.pacagehader h1 {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    /* line-height: 70px; */
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.pacagehader p {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 70px; */
+    color: black;
+    margin-bottom: 4rem;
+}
+
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'General Sans', sans-serif;
+
+}
+
+
+.card-body ul li {
+
+    font-family: 'General Sans', sans-serif;
+    font-size: 20px;
+    /* margin-top: 1rem; */
+    border-top: 1px solid #555;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+
+}
+
+
+#button1 {
+    border: none;
+    color: black;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+
+
+#button1 a:hover {
+
+    color: white;
+
+}
+
+#button2 {
+    border: none;
+    background-color: #ffc107 !important;
+    color: black;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+#button2 :hover {
+    background-color: #ffc71d !important;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* payment */
+
+.payment {
+    padding: 0 10rem;
+}
+
+
+.paymenthader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+    flex-direction: column;
+}
+
+.paymenthader .paymenttitle {
+    font-family: 'General Sans', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.paymenthader .paymentparagrap {
+    font-family: 'General Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+
+.paymentleftside {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.paymentleftside .paymentpapargap li {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    width: 100%;
+    /* margin-top: 2rem; */
+    /* color: blanchedalmond; */
+}
+
+
+#server {
+    color: black;
+}
+
+
+
+.paymentrightside {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.paymentrightside .paymentimg img {
+
+
+    width: 35rem;
+    height: inherit;
+}
+
+
+
+/* tv section */
+
+.tv {
+    width: 100%;
+    height: inherit;
+    padding: 0 10rem;
+}
+
+
+.tvhader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+    flex-direction: column;
+}
+
+.tvhader .tvtitle {
+    font-family: 'General Sans', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.tvhader .tvparagrap {
+    font-family: 'General Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.tvleftside {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tvleftside .tvtitle h1 {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    /* line-height: 70px; */
+    width: 70%;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.tvleftside .tvpapargap a {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 20px;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 2rem;
+    list-style: none;
+    /* color: blanchedalmond; */
+}
+
+.tvleftside .tvpapargap a li {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 20px;
+    width: 100%;
+    text-decoration: none;
+    /* margin-top: 2rem; */
+    list-style: none;
+    /* color: blanchedalmond; */
+}
+
+
+
+
+
+.tvrightside {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.tvrightside .tvimg img {
+
+
+    width: 35rem;
+    height: inherit;
+}
+
+
+/* contact */
+
+.contact {
+    padding: 0 10rem;
+    display: flex;
+    width: 100%;
+    height: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formbutton {
+    border: 2px solid #100259;
+    background-color: transparent;
+    border-radius: 30px;
+    color: black;
+    height: 3rem;
+    width: 10rem;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+form {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.btn-lg {
+    background-color: #00B2FF;
+}
+
+#ghs {
+    margin-top: 3rem;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #00B2FF;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+}
+
+.text-muted {
+    color: white !important;
+}
+
+
+
+/* responsiveness start here  */
+
+@media (min-width: 300px) and (max-width: 320px) {
+
+    .herosection {
+
+        padding: 0px 1rem;
+    }
+
+    .herop {
+        padding: 0 1rem;
+    }
+
+    .heroleftside .herotitle h1 {
+
+        font-size: 29px;
+        line-height: 30px;
+        width: 100%;
+
+    }
+
+    .heroleftside .heropapargap p {
+
+        font-size: 20px;
+        line-height: 25px;
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+
+    .herorightside .heroimg img {
+        width: 15rem;
+        height: inherit;
+        margin-top: 1rem;
+    }
+
+
+    .heroleftside {
+        height: 30rem;
+
+    }
+
+    .heroleftside .herobutton a {
+        margin-top: 1rem;
+        width: 9rem;
+    }
+
+    .herorightside {
+        display: flex;
+        width: 100%;
+        height: 14rem;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .herosection {
+        display: block;
+    }
+
+    #col1 {
+        order: 2;
+    }
+
+    #col2 {
+        order: 1;
+    }
+
+
+    .about {
+
+        padding: 0 2rem;
+    }
+
+    .abodthader .adouttitle {
+
+        font-size: 18px;
+        line-height: 9px;
+
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .abodthader .aboutparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .aboutrightside {
+        display: flex;
+        width: 100%;
+        height: 13rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutrightside .aboutimg img {
+        width: 15rem;
+        height: inherit;
+    }
+
+
+    .aboutleftside .abouttitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    .aboutleftside .aboutpapargap li {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: -0.5rem;
+        list-style: none;
+        /* color: blanchedalmond; */
+    }
+
+    .aboutleftside {
+        display: flex;
+        width: 100%;
+        height: 27rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .pricing {
+        padding: 0 1rem;
+    }
+
+    .pacagehader p {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .pacagehader h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        /* line-height: 70px; */
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'General Sans', sans-serif;
+    }
+
+    .card-body ul li {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        /* margin-top: 1rem; */
+        border-top: 1px solid #555;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+
+    .payment {
+        padding: 0 1rem;
+    }
+
+    .paymenthader .paymentparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+   
+
+    #col3 {
+        order: 2;
+    }
+
+    #col4 {
+        order: 1;
+    }
+
+
+    .paymentleftside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paymentrightside .paymentimg img {
+        width: 15rem;
+        height: inherit;
+    }
+
+
+    .paymentrightside {
+        display: flex;
+        width: 100%;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .tv {
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+        margin-top: -5rem;
+    }
+
+
+    .tvhader .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .tvhader .tvparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .tvrightside .tvimg img {
+        width: 15rem;
+        height: inherit;
+    }
+
+
+    .tvrightside {
+        display: flex;
+        width: 100%;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tvleftside {
+        display: flex;
+        width: 100%;
+        height: 30rem;
+        padding: 0 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .tvleftside .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+
+    .contact {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 350px) {
+
+    .herosection {
+
+        padding: 0px 1rem;
+    }
+
+    .herop {
+        padding: 0 1rem;
+    }
+
+    .heroleftside .herotitle h1 {
+
+        font-size: 29px;
+        line-height: 30px;
+        width: 100%;
+
+    }
+
+    .heroleftside .heropapargap p {
+
+        font-size: 20px;
+        line-height: 25px;
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+
+    .herorightside .heroimg img {
+        width: 15rem;
+        height: inherit;
+        margin-top: 1rem;
+    }
+
+
+    .heroleftside {
+        height: 30rem;
+
+    }
+
+    .heroleftside .herobutton a {
+        margin-top: 1rem;
+        width: 9rem;
+    }
+
+    .herorightside {
+        display: flex;
+        width: 100%;
+        height: 14rem;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .herosection {
+        display: block;
+    }
+
+    #col1 {
+        order: 2;
+    }
+
+    #col2 {
+        order: 1;
+    }
+
+
+    .about {
+
+        padding: 0 2rem;
+    }
+
+    .abodthader .adouttitle {
+
+        font-size: 18px;
+        line-height: 9px;
+
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .abodthader .aboutparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .aboutrightside {
+        display: flex;
+        width: 100%;
+        height: 13rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutrightside .aboutimg img {
+        width: 15rem;
+        height: inherit;
+    }
+
+
+    .aboutleftside .abouttitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    .aboutleftside .aboutpapargap li {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: -0.5rem;
+        list-style: none;
+        /* color: blanchedalmond; */
+    }
+
+    .aboutleftside {
+        display: flex;
+        width: 100%;
+        height: 27rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .pricing {
+        padding: 0 1rem;
+    }
+
+    .pacagehader p {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .pacagehader h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        /* line-height: 70px; */
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'General Sans', sans-serif;
+    }
+
+    .card-body ul li {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        /* margin-top: 1rem; */
+        border-top: 1px solid #555;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+
+    .payment {
+        padding: 0 1rem;
+    }
+
+    .paymenthader .paymentparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+   
+
+    #col3 {
+        order: 2;
+    }
+
+    #col4 {
+        order: 1;
+    }
+
+
+    .paymentleftside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paymentrightside .paymentimg img {
+        width: 15rem;
+        height: inherit;
+    }
+
+
+    .paymentrightside {
+        display: flex;
+        width: 100%;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .tv {
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+        margin-top: -5rem;
+    }
+
+
+    .tvhader .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .tvhader .tvparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .tvrightside .tvimg img {
+        width: 15rem;
+        height: inherit;
+    }
+
+
+    .tvrightside {
+        display: flex;
+        width: 100%;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tvleftside {
+        display: flex;
+        width: 100%;
+        height: 30rem;
+        padding: 0 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .tvleftside .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+
+    .contact {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 351px) and (max-width: 400px) {
+
+    .herosection {
+
+        padding: 0px 1rem;
+    }
+
+    .herop {
+        padding: 0 1rem;
+    }
+
+    .heroleftside .herotitle h1 {
+
+        font-size: 29px;
+        line-height: 30px;
+        width: 77%;
+
+    }
+
+    .heroleftside .heropapargap p {
+
+        font-size: 20px;
+        line-height: 25px;
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+
+    .herorightside .heroimg img {
+        width: 20rem;
+        height: inherit;
+        margin-top: 1rem;
+    }
+
+
+    .heroleftside {
+        height: 26rem;
+
+    }
+
+    .heroleftside .herobutton a {
+        margin-top: 1rem;
+        width: 9rem;
+    }
+
+    .herorightside {
+        display: flex;
+        width: 100%;
+        height: 22rem;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .herosection {
+        display: block;
+    }
+
+    #col1 {
+        order: 2;
+    }
+
+    #col2 {
+        order: 1;
+    }
+
+
+    .about {
+
+        padding: 0 2rem;
+    }
+
+    .abodthader .adouttitle {
+
+        font-size: 18px;
+        line-height: 9px;
+
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .abodthader .aboutparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .aboutrightside {
+        display: flex;
+        width: 100%;
+        height: 13rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutrightside .aboutimg img {
+        width: 15rem;
+        height: inherit;
+    }
+
+
+    .aboutleftside .abouttitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    .aboutleftside .aboutpapargap li {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: -0.5rem;
+        list-style: none;
+        /* color: blanchedalmond; */
+    }
+
+    .aboutleftside {
+        display: flex;
+        width: 100%;
+        height: 27rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+
+    .pricinglist{
+          padding: 0 2rem;
+
+    }
+
+
+    .pricing {
+        padding: 0 1rem;
+    }
+
+    .pacagehader p {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .pacagehader h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        /* line-height: 70px; */
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'General Sans', sans-serif;
+    }
+
+    .card-body ul li {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        /* margin-top: 1rem; */
+        border-top: 1px solid #555;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+
+    .payment {
+        padding: 0 1rem;
+    }
+
+    .paymenthader .paymentparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+   
+
+    #col3 {
+        order: 2;
+    }
+
+    #col4 {
+        order: 1;
+    }
+
+
+    .paymentleftside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paymentrightside .paymentimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .paymentrightside {
+        display: flex;
+        width: 100%;
+        height: 16rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .tv {
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+        margin-top: -5rem;
+    }
+
+
+    .tvhader .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .tvhader .tvparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .tvrightside .tvimg img {
+        width: 15rem;
+        height: inherit;
+    }
+
+
+    .tvrightside {
+        display: flex;
+        width: 100%;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tvleftside {
+        display: flex;
+        width: 100%;
+        height: 30rem;
+        padding: 0 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .tvleftside .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+
+    .contact {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 401px) and (max-width: 450px) {
+
+    .herosection {
+
+        padding: 0px 1rem;
+    }
+
+    .herop {
+        padding: 0 1rem;
+    }
+
+    .heroleftside .herotitle h1 {
+
+        font-size: 29px;
+        line-height: 30px;
+        width: 70%;
+
+    }
+
+    .heroleftside .heropapargap p {
+
+        font-size: 20px;
+        line-height: 25px;
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+
+    .herorightside .heroimg img {
+        width: 20rem;
+        height: inherit;
+        margin-top: 1rem;
+    }
+
+
+    .heroleftside {
+        height: 26rem;
+
+    }
+
+    .heroleftside .herobutton a {
+        margin-top: 1rem;
+        width: 9rem;
+    }
+
+    .herorightside {
+        display: flex;
+        width: 100%;
+        height: 22rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .herosection {
+        display: block;
+    }
+
+    #col1 {
+        order: 2;
+    }
+
+    #col2 {
+        order: 1;
+    }
+
+
+    .about {
+
+        padding: 0 2rem;
+    }
+
+    .abodthader .adouttitle {
+
+        font-size: 18px;
+        line-height: 9px;
+
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .abodthader .aboutparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .aboutrightside {
+        display: flex;
+        width: 100%;
+        height: 13rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutrightside .aboutimg img {
+        width: 15rem;
+        height: inherit;
+    }
+
+
+    .aboutleftside .abouttitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    .aboutleftside .aboutpapargap li {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: -0.5rem;
+        list-style: none;
+        /* color: blanchedalmond; */
+    }
+
+    .aboutleftside {
+        display: flex;
+        width: 100%;
+        height: 27rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+
+    .pricinglist{
+          padding: 0 2rem;
+
+    }
+
+
+    .pricing {
+        padding: 0 1rem;
+    }
+
+    .pacagehader p {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .pacagehader h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        /* line-height: 70px; */
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'General Sans', sans-serif;
+    }
+
+    .card-body ul li {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        /* margin-top: 1rem; */
+        border-top: 1px solid #555;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+
+    .payment {
+        padding: 0 1rem;
+    }
+
+    .paymenthader .paymentparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+   
+
+    #col3 {
+        order: 2;
+    }
+
+    #col4 {
+        order: 1;
+    }
+
+
+    .paymentleftside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paymentrightside .paymentimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .paymentrightside {
+        display: flex;
+        width: 100%;
+        height: 16rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .tv {
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+        margin-top: -5rem;
+    }
+
+
+    .tvhader .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .tvhader .tvparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .tvrightside .tvimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .tvrightside {
+        display: flex;
+        width: 100%;
+        height: 15rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tvleftside {
+        display: flex;
+        width: 100%;
+        height: 30rem;
+        padding: 0 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .tvleftside .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+
+    .contact {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 451px) and (max-width: 500px) {
+
+    .herosection {
+
+        padding: 0px 1rem;
+    }
+
+    .herop {
+        padding: 0 1rem;
+    }
+
+    .heroleftside .herotitle h1 {
+
+        font-size: 29px;
+        line-height: 30px;
+        width: 100%;
+
+    }
+
+    .heroleftside .heropapargap p {
+
+        font-size: 20px;
+        line-height: 25px;
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+
+    .herorightside .heroimg img {
+        width: 20rem;
+        height: inherit;
+        margin-top: 1rem;
+    }
+
+
+    .heroleftside {
+        height: 26rem;
+
+    }
+
+    .heroleftside .herobutton a {
+        margin-top: 1rem;
+        width: 9rem;
+    }
+
+    .herorightside {
+        display: flex;
+        width: 100%;
+        height: 22rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .herosection {
+        display: block;
+    }
+
+    #col1 {
+        order: 2;
+    }
+
+    #col2 {
+        order: 1;
+    }
+
+
+    .about {
+
+        padding: 0 2rem;
+    }
+
+    .abodthader .adouttitle {
+
+        font-size: 18px;
+        line-height: 9px;
+
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .abodthader .aboutparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .aboutrightside {
+        display: flex;
+        width: 100%;
+        height: 18rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutrightside .aboutimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .aboutleftside .abouttitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    .aboutleftside .aboutpapargap li {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: -0.5rem;
+        list-style: none;
+        /* color: blanchedalmond; */
+    }
+
+    .aboutleftside {
+        display: flex;
+        width: 100%;
+        height: 27rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+
+    .pricinglist{
+          padding: 0 3rem;
+
+    }
+
+
+    .pricing {
+        padding: 0 1rem;
+    }
+
+    .pacagehader p {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .pacagehader h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        /* line-height: 70px; */
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'General Sans', sans-serif;
+    }
+
+    .card-body ul li {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        /* margin-top: 1rem; */
+        border-top: 1px solid #555;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+
+    .payment {
+        padding: 0 1rem;
+    }
+
+    .paymenthader .paymentparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+   
+
+    #col3 {
+        order: 2;
+    }
+
+    #col4 {
+        order: 1;
+    }
+
+
+    .paymentleftside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 2rem;
+    }
+
+    .paymentrightside .paymentimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .paymentrightside {
+        display: flex;
+        width: 100%;
+        height: 16rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .tv {
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+        margin-top: -5rem;
+    }
+
+
+    .tvhader .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .tvhader .tvparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .tvrightside .tvimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .tvrightside {
+        display: flex;
+        width: 100%;
+        height: 15rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tvleftside {
+        display: flex;
+        width: 100%;
+        height: 30rem;
+        padding: 0 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .tvleftside .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+
+    .contact {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 501px) and (max-width:600px) {
+
+    .herosection {
+
+        padding: 0px 1rem;
+    }
+
+    .herop {
+        padding: 0 1rem;
+    }
+
+    .heroleftside .herotitle h1 {
+
+        font-size: 29px;
+        line-height: 30px;
+        width: 100%;
+
+    }
+
+    .heroleftside .heropapargap p {
+
+        font-size: 20px;
+        line-height: 25px;
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+
+    .herorightside .heroimg img {
+        width: 24rem;
+        height: inherit;
+        margin-top: 1rem;
+    }
+
+
+    .heroleftside {
+        height: 26rem;
+
+    }
+
+    .heroleftside .herobutton a {
+        margin-top: 1rem;
+        width: 9rem;
+    }
+
+    .herorightside {
+        display: flex;
+        width: 100%;
+        height: 22rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .herosection {
+        display: block;
+    }
+
+    #col1 {
+        order: 2;
+    }
+
+    #col2 {
+        order: 1;
+    }
+
+
+    .about {
+
+        padding: 0 2rem;
+    }
+
+    .abodthader .adouttitle {
+
+        font-size: 18px;
+        line-height: 9px;
+
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .abodthader .aboutparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .aboutrightside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutrightside .aboutimg img {
+        width: 24rem;
+        height: inherit;
+    }
+
+
+    .aboutleftside .abouttitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    .aboutleftside .aboutpapargap li {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: -0.5rem;
+        list-style: none;
+        /* color: blanchedalmond; */
+    }
+
+    .aboutleftside {
+        display: flex;
+        width: 100%;
+        height: 27rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+
+    .pricinglist{
+          padding: 0 1rem;
+
+    }
+
+
+    .pricing {
+        padding: 0 1rem;
+    }
+
+    .pacagehader p {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .pacagehader h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        /* line-height: 70px; */
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'General Sans', sans-serif;
+    }
+
+    .card-body ul li {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        /* margin-top: 1rem; */
+        border-top: 1px solid #555;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4rem;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+
+    .payment {
+        padding: 0 1rem;
+    }
+
+    .paymenthader .paymentparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+   
+
+    #col3 {
+        order: 2;
+    }
+
+    #col4 {
+        order: 1;
+    }
+
+
+    .paymentleftside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 2rem;
+    }
+
+    .paymentrightside .paymentimg img {
+        width: 25rem;
+        height: inherit;
+    }
+
+
+    .paymentrightside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .tv {
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+        margin-top: -5rem;
+    }
+
+
+    .tvhader .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .tvhader .tvparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .tvrightside .tvimg img {
+        width: 26rem;
+        height: inherit;
+    }
+
+
+    .tvrightside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tvleftside {
+        display: flex;
+        width: 100%;
+        height: 30rem;
+        padding: 0 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .tvleftside .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+
+    .contact {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 700px) and (max-width:800px) {
+
+    .herosection {
+
+        padding: 0px 1rem;
+    }
+
+    .herop {
+        padding: 0 1rem;
+    }
+
+    .heroleftside .herotitle h1 {
+
+        font-size: 29px;
+        line-height: 30px;
+        width: 80%;
+
+    }
+
+    .heroleftside .heropapargap p {
+
+        font-size: 20px;
+        line-height: 25px;
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+
+    .herorightside .heroimg img {
+        width: 24rem;
+        height: inherit;
+        margin-top: 1rem;
+    }
+
+
+    .heroleftside {
+        height: 26rem;
+
+    }
+
+    .heroleftside .herobutton a {
+        margin-top: 1rem;
+        width: 9rem;
+    }
+
+    .herorightside {
+        display: flex;
+        width: 100%;
+        height: 22rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .herosection {
+        display: block;
+    }
+
+    #col1 {
+        order: 1;
+    }
+
+    #col2 {
+        order: 2;
+    }
+
+
+    .about {
+
+        padding: 0 2rem;
+    }
+
+    .abodthader .adouttitle {
+
+        font-size: 18px;
+        line-height: 9px;
+
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .abodthader .aboutparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .aboutrightside {
+        display: flex;
+        width: 100%;
+        height: 26rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutrightside .aboutimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .aboutleftside .abouttitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    .aboutleftside .aboutpapargap li {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: -0.5rem;
+        list-style: none;
+        /* color: blanchedalmond; */
+    }
+
+    .aboutleftside {
+        display: flex;
+        width: 100%;
+        height: 27rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+
+    .pricinglist{
+          padding: 0 3rem;
+
+    }
+
+
+    .pricing {
+        padding: 0 3rem;
+    }
+
+    .pacagehader p {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .pacagehader h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        /* line-height: 70px; */
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'General Sans', sans-serif;
+    }
+
+    .card-body ul li {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        /* margin-top: 1rem; */
+        border-top: 1px solid #555;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4rem;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+
+    .payment {
+        padding: 0 1rem;
+    }
+
+    .paymenthader .paymentparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+   
+
+    #col3 {
+        order: 1;
+    }
+
+    #col4 {
+        order: 2;
+    }
+
+
+    .paymentleftside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 3rem;
+    }
+
+    .paymentrightside .paymentimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .paymentrightside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+
+    .tv {
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+        margin-top: -5rem;
+    }
+
+
+    .tvhader .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .tvhader .tvparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .tvrightside .tvimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .tvrightside {
+        display: flex;
+        width: 100%;
+        height: 24rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tvleftside {
+        display: flex;
+        width: 100%;
+        height: 24rem;
+        padding: 0 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .tvleftside .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+
+    .contact {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (min-width: 1000px) and (max-width:1443px) {
+
+    .navsections {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 5rem;
+        background-color: #00B2FF;
+        /* border-bottom: 1px solid #555; */
+        font-family: 'General Sans', sans-serif;
+        padding: 0 2rem;
+    }
+
+    .herosection {
+
+        padding: 0px 1rem;
+    }
+
+    .herop {
+        padding: 0 4rem;
+    }
+
+    .abodthader {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        padding: 0 4rem;
+    }
+
+    .heroleftside .herotitle h1 {
+
+        font-size: 29px;
+        line-height: 30px;
+        width: 60%;
+
+    }
+
+    .heroleftside .heropapargap p {
+
+        font-size: 20px;
+        line-height: 25px;
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+
+    .herorightside .heroimg img {
+        width: 24rem;
+        height: inherit;
+        margin-top: 1rem;
+    }
+
+
+    .heroleftside {
+        height: 26rem;
+
+    }
+
+    .heroleftside .herobutton a {
+        margin-top: 1rem;
+        width: 9rem;
+    }
+
+    .herorightside {
+        display: flex;
+        width: 100%;
+        height: 22rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .herosection {
+        display: block;
+    }
+
+    #col1 {
+        order: 1;
+    }
+
+    #col2 {
+        order: 2;
+    }
+
+
+    .about {
+
+        padding: 0 2rem;
+    }
+
+    .abodthader .adouttitle {
+
+        font-size: 18px;
+        line-height: 9px;
+
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .abodthader .aboutparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .aboutrightside {
+        display: flex;
+        width: 100%;
+        height: 26rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutrightside .aboutimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .aboutleftside .abouttitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    .aboutleftside .aboutpapargap li {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: -0.5rem;
+        list-style: none;
+        /* color: blanchedalmond; */
+    }
+
+    .aboutleftside {
+        display: flex;
+        width: 100%;
+        height: 27rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+
+    .pricinglist{
+          padding: 0 0rem;
+
+    }
+
+
+    .pricing {
+        padding: 0 1rem;
+    }
+
+    .pacagehader p {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .pacagehader h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        /* line-height: 70px; */
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'General Sans', sans-serif;
+    }
+
+    .card-body ul li {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        /* margin-top: 1rem; */
+        border-top: 1px solid #555;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4rem;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+
+    .payment {
+        padding: 0 1rem;
+    }
+
+    .paymenthader .paymentparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+   
+
+    #col3 {
+        order: 1;
+    }
+
+    #col4 {
+        order: 2;
+    }
+
+
+    .paymentleftside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 3rem;
+    }
+
+    .paymentrightside .paymentimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .paymentrightside {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+
+    .tv {
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+        margin-top: -5rem;
+    }
+
+
+    .tvhader .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .tvhader .tvparagrap {
+        font-family: 'General Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .tvrightside .tvimg img {
+        width: 20rem;
+        height: inherit;
+    }
+
+
+    .tvrightside {
+        display: flex;
+        width: 100%;
+        height: 24rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tvleftside {
+        display: flex;
+        width: 100%;
+        height: 24rem;
+        padding: 0 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .tvleftside .tvtitle h1 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        /* line-height: 70px; */
+        width: 100%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+
+    .contact {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
